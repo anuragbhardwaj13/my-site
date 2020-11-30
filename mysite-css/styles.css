@@ -164,7 +164,7 @@ skill-row {
     font-size: 0.75rem;
     padding: 20px 0;
   }
-  .footer-link{
+  a.footer-link{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
