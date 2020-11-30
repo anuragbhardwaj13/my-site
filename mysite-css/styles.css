@@ -95,4 +95,8 @@ skill-row {
     width:100%;
     position: absolute;;
   }
-  
+  .contact-gif{
+    width:200px;
+    height:200px;
+   text-align: center;
+  }
