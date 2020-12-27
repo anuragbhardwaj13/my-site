@@ -7,10 +7,15 @@ body{
      overflow-x: hidden;
 }
 
-.container-fluid{
+.top-container{
     background-color:#dff9fb;
    padding-top: 40px;
-        
+        width: 100%;
+        margin: 0%;
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right:0px;
 }
 
 .container {
@@ -88,14 +93,23 @@ hr {
     height:200px;
    text-align: center;
 }
-skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-  }
+.ai{
+   width:200px;
+    height:200px;
+}
   .intro {
     width: 30%;
     margin: auto;
+  }
+  .gd{
+    padding:50px 0;
+  }
+  .coding{
+    width:300px;
+    height:370px;
+  }
+  .prog{
+    padding-right:50px;
   }
   .bottom-container {
     background-color: #dff9fb;
