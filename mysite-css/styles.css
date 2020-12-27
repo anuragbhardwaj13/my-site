@@ -7,11 +7,9 @@ body{
      overflow-x: hidden;
 }
 
-.top-container{
+.container-fluid{
     background-color:#dff9fb;
-    padding: 30px;
-    width:100%;
-    margin:0px;
+   padding-top: 40px;
         
 }
 
@@ -71,6 +69,7 @@ p{
     color:#30336b;
     line-height: 2;
     text-align: center;
+    
 }
 hr {
     border: dotted #66bfbf 6px;
