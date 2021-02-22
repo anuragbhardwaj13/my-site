@@ -2,15 +2,14 @@
 body{
     color:#40514E;
     max-width: 100%;
-   
-      overflow-x: hidden ;
-  
-    font-family: 'Merriweather', serif;
+   overflow-x: hidden ;
+  font-family: 'Merriweather', serif;
      
 }
 
 .top-container{
     background-color:#dff9fb;
+    text-align: center;
    padding-top: 40px;
         
 }
@@ -19,95 +18,104 @@ body{
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
-
-
-
-  
-  /* Make the image to responsive */
-  .anurag-photo {
-width: 400px;
-height:500px;
-padding-right:50px;  }
-  
-  /* The overlay effect - lays on top of the container and over the image */
-
-.computerguy{
-    height: 400px;
-    width:  400px;
-    position: relative;   
-}
 h1{
-    font-family: 'Sacramento', cursive;
-    color: #204051;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #204051;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
 
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
-    color: #204051;
+  font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom: 10px;
+  color: #204051;
 
 
 
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #3b6978;
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6978;
 
 
 }
 p{
-    font-family: 'Montserrat', sans-serif;
-    color:#30336b;
-    line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  color:#30336b;
+  line-height: 2;
 
 }
 .subtitle{
 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    color:#30336b;
-    line-height: 2;
-    text-align: center;
-    
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color:#30336b;
+  line-height: 2;
+  text-align: center;
+  
 }
-hr {
+.codingguy{
+  height: 400px;
+  width:  400px;
+  position: relative;   
+}
+
+
+
+.middle-container {
+  margin: 100px 0;
+  text-align: center;
+  overflow-x: hidden ;
+
+  
+}
+  .anurag-photo {
+width: 240px;
+height:300px;
+  }
+  .intro {
+    font-size: 1.25rem;
+    margin: auto;
+    padding: 20px;
+  }
+  
+
+
+
+  hr {
     border: dotted #66bfbf 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
-  }
-  .middle-container {
-    margin: 100px 0;
-  }
-.skill-img{
-
-    
-    
-    width:200px;
-    height:200px;
+  } 
+  
+.skills{
    text-align: center;
+   overflow-x: hidden ;
+
 }
+
+
 .ai{
    width:200px;
     height:200px;
+    
 }
-  .intro {
-    width: 30%;
-    margin: auto;
-  }
+  
   .gd{
-    padding:50px 0;
+    font-size: 1rem;
+    padding: 50px;
   }
   .coding{
     width:300px;
     height:370px;
   }
   .prog{
-    padding-right:50px;
+    padding:50px;
+    font-size: 1rem;
+    color:#3b6978;
   }
   .bottom-container {
     background-color: #dff9fb;
@@ -115,10 +123,14 @@ hr {
     width:100%;
     position: absolute;;
   }
+  
   .contact-gif{
     width:200px;
     height:200px;
    text-align: center;
+  }
+  .contact-me{
+    text-align: center;
   }
   .btn {
     background: #11cdd4;
@@ -150,6 +162,9 @@ hr {
     width: 40%;
     margin: 40px auto 60px;
     font-size: 1.25rem;
+  }
+  .bottom-container{
+    text-align: center;
   }
   
   .copyright {
